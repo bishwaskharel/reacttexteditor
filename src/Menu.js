@@ -10,10 +10,13 @@ const Menu = () => {
           <Link to="/">Home</Link>
         </li>
         <li>
+          <Link to="Netflix">Netflix</Link>
+        </li>
+        <li>
           <Link to="Contact">Contact Us</Link>
         </li>
         <li>
-          <Link to="About">Abous Us</Link>
+          <Link to="About">About Us</Link>
         </li>
       </ul>
     </nav>
