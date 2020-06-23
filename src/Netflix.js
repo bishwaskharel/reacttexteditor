@@ -1,10 +1,12 @@
 import React from "react";
 import Card from "./Card";
+import "./Netflix.css";
 
 const Netflix = () => {
   return (
     <>
-      <Card
+    <h1 className="heading_style">Top 5 Netflix Series</h1>
+     <p> <Card
         imgsrc="https://picsum.photos/250/300"
         alt="1st Movie"
         span="A netflix Series"
@@ -32,6 +34,7 @@ const Netflix = () => {
         href="https://www.Instagram.com"
         h3="Instagram"
       />
+      </p>
     </>
   );
 };
