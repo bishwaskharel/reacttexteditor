@@ -1,6 +1,6 @@
 import React from "react";
 import Calculator, { sum, sub, div, mul } from "./Calculator";
-
+import "./Contact.css";
 const Contact = () => {
   return (
     <div>

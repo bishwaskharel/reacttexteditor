@@ -1,40 +1,28 @@
 import React from "react";
 import Card from "./Card";
 import "./Netflix.css";
+import Sdata from "./Sdata";
+
+/*function ncard(val) {
+  return <Card img={val.img} alt={val.alt} link={val.link} title={val.title} />;
+}*/
+
+//const ncard = (val) =><Card img={val.img} alt={val.alt} link={val.link} title={val.title} />;
 
 const Netflix = () => {
   return (
     <>
-    <h1 className="heading_style">Top 5 Netflix Series</h1>
-     <p> <Card
-        imgsrc="https://picsum.photos/250/300"
-        alt="1st Movie"
-        span="A netflix Series"
-        href="https://www.sainotech.com"
-        h3="Saino Tech"
-      />
-      <Card
-        imgsrc="https://picsum.photos/240/300"
-        alt="1st Movie"
-        span="A netflix Series"
-        href="https://www.Facebook.com"
-        h3="Facebook"
-      />
-      <Card
-        imgsrc="https://picsum.photos/230/300"
-        alt="1st Movie"
-        span="A netflix Series"
-        href="https://www.Twitter.com"
-        h3="Twitter"
-      />
-      <Card
-        imgsrc="https://picsum.photos/220/300"
-        alt="1st Movie"
-        span="A netflix Series"
-        href="https://www.Instagram.com"
-        h3="Instagram"
-      />
-      </p>
+      <h1 className="heading_style">Top 6 Netflix Series</h1>
+      {Sdata.map((val) => (
+        <Card
+          key={val.id}
+          img={val.img}
+          alt={val.alt}
+          link={val.link}
+          title={val.title}
+        />
+      ))}
+      ;
     </>
   );
 };
