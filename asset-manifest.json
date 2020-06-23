@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/reacttexteditor/static/css/main.0da80586.chunk.css",
-    "main.js": "/reacttexteditor/static/js/main.98a13273.chunk.js",
-    "main.js.map": "/reacttexteditor/static/js/main.98a13273.chunk.js.map",
+    "main.js": "/reacttexteditor/static/js/main.d49d8af7.chunk.js",
+    "main.js.map": "/reacttexteditor/static/js/main.d49d8af7.chunk.js.map",
     "runtime-main.js": "/reacttexteditor/static/js/runtime-main.24d53b1a.js",
     "runtime-main.js.map": "/reacttexteditor/static/js/runtime-main.24d53b1a.js.map",
     "static/js/2.183f1cae.chunk.js": "/reacttexteditor/static/js/2.183f1cae.chunk.js",
     "static/js/2.183f1cae.chunk.js.map": "/reacttexteditor/static/js/2.183f1cae.chunk.js.map",
     "index.html": "/reacttexteditor/index.html",
-    "precache-manifest.4ec891751cabf8b546884490c2b9d59b.js": "/reacttexteditor/precache-manifest.4ec891751cabf8b546884490c2b9d59b.js",
+    "precache-manifest.4982c893df795cdd221b9742f5d2bb60.js": "/reacttexteditor/precache-manifest.4982c893df795cdd221b9742f5d2bb60.js",
     "service-worker.js": "/reacttexteditor/service-worker.js",
     "static/css/main.0da80586.chunk.css.map": "/reacttexteditor/static/css/main.0da80586.chunk.css.map",
     "static/js/2.183f1cae.chunk.js.LICENSE.txt": "/reacttexteditor/static/js/2.183f1cae.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.24d53b1a.js",
     "static/js/2.183f1cae.chunk.js",
     "static/css/main.0da80586.chunk.css",
-    "static/js/main.98a13273.chunk.js"
+    "static/js/main.d49d8af7.chunk.js"
   ]
 }
