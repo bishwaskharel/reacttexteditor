@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/reacttexteditor/static/css/main.0da80586.chunk.css",
-    "main.js": "/reacttexteditor/static/js/main.d49d8af7.chunk.js",
-    "main.js.map": "/reacttexteditor/static/js/main.d49d8af7.chunk.js.map",
+    "main.css": "/reacttexteditor/static/css/main.ae0b3eda.chunk.css",
+    "main.js": "/reacttexteditor/static/js/main.f6c30d85.chunk.js",
+    "main.js.map": "/reacttexteditor/static/js/main.f6c30d85.chunk.js.map",
     "runtime-main.js": "/reacttexteditor/static/js/runtime-main.24d53b1a.js",
     "runtime-main.js.map": "/reacttexteditor/static/js/runtime-main.24d53b1a.js.map",
     "static/js/2.183f1cae.chunk.js": "/reacttexteditor/static/js/2.183f1cae.chunk.js",
     "static/js/2.183f1cae.chunk.js.map": "/reacttexteditor/static/js/2.183f1cae.chunk.js.map",
     "index.html": "/reacttexteditor/index.html",
-    "precache-manifest.4982c893df795cdd221b9742f5d2bb60.js": "/reacttexteditor/precache-manifest.4982c893df795cdd221b9742f5d2bb60.js",
+    "precache-manifest.1aec91fb747db9ccead7f875e3068811.js": "/reacttexteditor/precache-manifest.1aec91fb747db9ccead7f875e3068811.js",
     "service-worker.js": "/reacttexteditor/service-worker.js",
-    "static/css/main.0da80586.chunk.css.map": "/reacttexteditor/static/css/main.0da80586.chunk.css.map",
+    "static/css/main.ae0b3eda.chunk.css.map": "/reacttexteditor/static/css/main.ae0b3eda.chunk.css.map",
     "static/js/2.183f1cae.chunk.js.LICENSE.txt": "/reacttexteditor/static/js/2.183f1cae.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.24d53b1a.js",
     "static/js/2.183f1cae.chunk.js",
-    "static/css/main.0da80586.chunk.css",
-    "static/js/main.d49d8af7.chunk.js"
+    "static/css/main.ae0b3eda.chunk.css",
+    "static/js/main.f6c30d85.chunk.js"
   ]
 }

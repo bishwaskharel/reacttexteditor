@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4ccd9a9a962e0b9dc61882f44f93d110",
+    "revision": "e2122d15887900d6b387c3cf64fdb181",
     "url": "/reacttexteditor/index.html"
   },
   {
-    "revision": "b2f7739d7ae9488a3188",
-    "url": "/reacttexteditor/static/css/main.0da80586.chunk.css"
+    "revision": "f06e139c0c8e4afe7330",
+    "url": "/reacttexteditor/static/css/main.ae0b3eda.chunk.css"
   },
   {
     "revision": "d28a0e22ff4f76de1c49",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reacttexteditor/static/js/2.183f1cae.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b2f7739d7ae9488a3188",
-    "url": "/reacttexteditor/static/js/main.d49d8af7.chunk.js"
+    "revision": "f06e139c0c8e4afe7330",
+    "url": "/reacttexteditor/static/js/main.f6c30d85.chunk.js"
   },
   {
     "revision": "44d00857af7e4849ecd7",
