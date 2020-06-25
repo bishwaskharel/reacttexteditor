@@ -13,6 +13,9 @@ const Menu = () => {
           <Link to="Netflix">Netflix</Link>
         </li>
         <li>
+          <Link to="Calculator">Calculator</Link>
+        </li>
+        <li>
           <Link to="Contact">Contact Us</Link>
         </li>
         <li>

@@ -6,7 +6,7 @@ const Card = (props) => {
       <div className="card">
         <img src={props.img} alt={props.alt} className="card_img" />
         <div className="card_info">
-          <span className="card_category">A netflix Series</span>
+          <span className="card_category">{props.sname}</span>
           <h3 className="card_title">{props.title}</h3>
           <a href={props.link} target="blank">
             <button>Watch Now</button>

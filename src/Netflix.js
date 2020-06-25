@@ -16,6 +16,7 @@ const Netflix = () => {
       {Sdata.map((val) => (
         <Card
           key={val.id}
+          sname={val.sname}
           img={val.img}
           alt={val.alt}
           link={val.link}

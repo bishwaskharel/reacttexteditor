@@ -1,10 +1,10 @@
 import React from "react";
-import Calculator, { sum, sub, div, mul } from "./Calculator";
+import Calc, { sum, sub, div, mul } from "./Calc";
 import "./Contact.css";
 const Contact = () => {
   return (
     <div>
-      <Calculator />
+      <Calc />
       <h1>
         <ul>
           <li>Sum is {sum(10, 20)}</li>
