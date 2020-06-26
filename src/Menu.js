@@ -13,7 +13,7 @@ const Menu = () => {
           <Link to="Netflix">Netflix</Link>
         </li>
         <li>
-          <Link to="Calculator">Calculator</Link>
+          <Link to="Slot">Slot</Link>
         </li>
         <li>
           <Link to="Contact">Contact Us</Link>

@@ -3,7 +3,7 @@ import Menu from "./Menu";
 import Home from "./Home";
 import Contact from "./Contact";
 import About from "./About";
-import Calculator from "./Calculator";
+import Slot from "./Slot";
 import Netflix from "./Netflix";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
@@ -13,7 +13,7 @@ function App() {
       <div>
         <Menu />
         <Switch>
-        <Route path="/Calculator" component={Calculator} />
+          <Route path="/Slot" component={Slot} />
           <Route path="/Netflix" component={Netflix} />
           <Route path="/" exact component={Home} />
           <Route path="/About" component={About} />
@@ -21,7 +21,7 @@ function App() {
         </Switch>
       </div>
     </BrowserRouter>
-  ); 
+  );
 }
 
 export default App;
