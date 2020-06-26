@@ -1,52 +1,24 @@
-import React, { useState } from "react";
+import React from "react";
+import UpTime from "./UpTime";
+import InNum from "./InNum";
+import RealTime from "./RealTime";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import SlotNav from "./SlotNav";
 
 const Slot = () => {
-  let newTime = new Date().toLocaleTimeString();
-
-  const [ctime, setCtime] = useState(newTime);
-  //console.log(state);
-
-  const IncNum = () => {
-    newTime = new Date().toLocaleTimeString();
-    setCtime(newTime);
-    //console.log('clicled' + count++);
-  };
-
-  const [count, setCount] = useState(0);
-
-  const IncNum2 = () => {
-    setCount(count + 1);
-  };
-
-  const [chtime, setChtime] = useState(newTime);
-
-  const IncNum3 = () => {
-    newTime = new Date().toLocaleTimeString();
-    setChtime(newTime);
-  };
-
-  setInterval(IncNum3, 1000);
   return (
-    <div>
-      <h1>Slot Game</h1>
-      <div className="text-center">
-        <h3>{ctime}</h3>
-        <button type="button" onClick={IncNum} className="btn btn-success ">
-          Update Time
-        </button>
+    <BrowserRouter>
+      <div>
+        <SlotNav />
+
+        <Switch>
+          <Route path="/UpTime" component={UpTime} />
+          <Route path="/InNum" component={InNum} />
+          <Route path="/RealTime" component={RealTime} />
+          <h1>Select anyone</h1>
+        </Switch>
       </div>
-      <br></br>
-      <div className="text-center">
-        <h3>{count}</h3>
-        <button type="button" onClick={IncNum2} className="btn btn-success ">
-          Increase Number
-        </button>
-      </div>
-      <br></br>
-      <div className="text-center">
-        <h3>{chtime}</h3>
-      </div>
-    </div>
+    </BrowserRouter>
   );
 };
 
