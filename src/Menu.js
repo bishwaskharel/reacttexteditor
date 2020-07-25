@@ -1,25 +1,25 @@
 import React from "react";
 import "./menustyle.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Menu = () => {
   return (
     <nav className="navstyle">
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <Link to="Netflix">Netflix</Link>
+          <NavLink to="Netflix">Netflix</NavLink>
         </li>
         <li>
-          <Link to="Slot">Slot</Link>
+          <NavLink to="Slot">Slot</NavLink>
         </li>
         <li>
-          <Link to="Contact">Contact Us</Link>
+          <NavLink to="Contact">Contact Us</NavLink>
         </li>
         <li>
-          <Link to="About">About Us</Link>
+          <NavLink to="About">About Us</NavLink>
         </li>
       </ul>
     </nav>

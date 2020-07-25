@@ -28,5 +28,6 @@ body{
   
   .navstyle1 ul li a {
     color: rgb(3, 3, 44);
+    text-decoration: none;
   }
   

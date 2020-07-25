@@ -1,0 +1,10 @@
+h1 {
+  color: rgb(10, 117, 58);
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+  text-shadow: 0px 2px 4px #ffe9c5;
+  margin: 50px 2px;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 50px 2px;
+}

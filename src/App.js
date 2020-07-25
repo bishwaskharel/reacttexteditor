@@ -5,6 +5,7 @@ import Contact from "./Contact";
 import About from "./About";
 import Slot from "./Slot";
 import Netflix from "./Netflix";
+import Error from "./Error";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -18,6 +19,8 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/About" component={About} />
           <Route path="/Contact" component={Contact} />
+          
+          <Route component={Error} />
         </Switch>
       </div>
     </BrowserRouter>
